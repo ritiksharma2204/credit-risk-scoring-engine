@@ -34,6 +34,12 @@ cd app
 streamlit run app.py
 ```
 
+## Notebooks
+- `01_eda.ipynb` — EDA + Feature Engineering (data cleaning, 
+   leakage removal, encoding, missing value imputation)
+- `03_modelling.ipynb` — Model training, evaluation, 
+   credit score conversion, SHAP analysis
+  
 ## Stack
 Python | XGBoost | LightGBM | SHAP | Streamlit | Pandas | Scikit-learn
 
