@@ -4,7 +4,12 @@ End-to-end credit risk model on LendingClub loan data (2007-2018).
 
 ## What it does
 - Predicts probability of loan default using XGBoost
-- Converts default probability into a FICO-style credit score (300-850)
+- Converts default probability into a credit score (489-690 range, 
+based on LendingClub test data distribution)
+
+Note: Score range reflects the test dataset distribution (489-690). 
+Full 300-850 scale would require more extreme risk profiles than 
+present in this dataset.
 - Explains score via key risk factors (DTI, FICO, employment length)
 - Interactive Streamlit demo for real-time scoring
 
