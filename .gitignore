@@ -1,6 +1,5 @@
 data/raw/*
 data/processed/*
-models/*.pkl
 .DS_Store
 anaconda_projects/
 .ipynb_checkpoints/
